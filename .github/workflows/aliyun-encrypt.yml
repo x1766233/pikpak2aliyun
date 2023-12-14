@@ -45,7 +45,7 @@ jobs:
           pip install install requests
       - name: 下载加密程序
         run: |
-          curl -L -o dist.tar.gz https://github.com/ykxVK8yL5L/alist-encrypt/releases/download/0.0.2/dist.tar.gz
+          curl -L -o dist.tar.gz https://github.com/ykxVK8yL5L/alist-encrypt/releases/download/0.0.1/dist.tar.gz
           tar -xzf dist.tar.gz
           
       - name: 下载文件
